@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, Verdana;
-    background-color: #74e3dc;
+    background-color: #7fce71;
     color: #071724;
     margin: 20px 20px 0 20px;
 }
@@ -107,6 +107,10 @@ p {
 
 /* Add your media query here */
 @media screen and (min-width:800px) {
+
+    h1 {
+        font-size: 50px;
+    }
 
     .bacon-photos {
         grid-template-columns: 1fr 1fr 1fr 1fr;
